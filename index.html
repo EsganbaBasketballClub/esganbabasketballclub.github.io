@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esganba (Escuela de Gansos de Baloncesto) - La academia de baloncesto líder en Bogotá, Colombia. Formación integral para niños, jóvenes y adultos. ¡Únete y domina la cancha!">
+    <meta name="keywords" content="baloncesto bogota, club de baloncesto bogota, escuela de baloncesto bogota, esganba, entrenar basket bogota">
+    <meta name="author" content="Esganba">
+    <title>Esganba | Escuela de Gansos de Baloncesto en Bogotá</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-area">
+                <img src="assets/Logo.jpg" alt="Logo Esganba" id="nav-logo" class="logo-img">
+                <span class="logo-text">ESGANBA</span>
+            </a>
+            
+            <button class="mobile-toggle" aria-label="Abrir menú" id="menu-toggle">
+                <i data-lucide="menu"></i>
+            </button>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#nosotros" class="nav-link">El Club</a>
+                <a href="#programas" class="nav-link">Programas</a>
+                <a href="#entrenador" class="nav-link">Entrenador</a>
+                <a href="#galeria" class="nav-link">Galería</a>
+                <a href="#desafio" class="nav-link">Desafío</a>
+                <a href="#contacto" class="btn btn-primary btn-nav">¡Inscríbete Ya!</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-video-container">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/Video 1 Ganso.mp4" type="video/mp4">
+                <!-- Fallback image si no carga el video -->
+                <img src="assets/Portada.jpg" alt="Portada Esganba Escuela de Gansos de Baloncesto">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <span class="hero-badge"><i data-lucide="map-pin"></i> Bogotá, Colombia</span>
+            <h1 class="hero-title">DOMINA LA CANCHA<br><span class="highlight">LIDERA EL JUEGO</span></h1>
+            <p class="hero-subtitle">En Esganba (Escuela de Gansos de Baloncesto) formamos los futuros talentos del baloncesto bogotano con disciplina, técnica y pasión. ¡Tu primera clase es gratis!</p>
+            <div class="hero-actions">
+                <a href="#contacto" class="btn btn-primary btn-lg">Agendar Clase de Cortesía</a>
+                <a href="#nosotros" class="btn btn-outline btn-lg">Conocer Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros Section -->
+    <section id="nosotros" class="section nosotros">
+        <div class="container">
+            <div class="section-grid">
+                <div class="nosotros-content">
+                    <span class="section-tag">Esganba</span>
+                    <h2 class="section-title">Pasión y Excelencia Deportiva en Bogotá</h2>
+                    <p class="section-desc">Esganba (Escuela de Gansos de Baloncesto) es una academia de alto rendimiento y formación integral dedicada a promover el baloncesto en la capital. Creemos firmemente que el deporte es el vehículo perfecto para forjar valores, carácter y disciplina.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i data-lucide="award"></i></div>
+                            <div>
+                                <h3>Entrenamiento de Élite</h3>
+                                <p>Metodología avanzada adaptada a cada rango de edad y nivel de habilidad.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i data-lucide="users"></i></div>
+                            <div>
+                                <h3>Formación en Valores</h3>
+                                <p>Fomentamos el trabajo en equipo, el respeto, la resiliencia y el liderazgo.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <h3>Ubicación Estratégica</h3>
+                                <p>Sedes accesibles en Bogotá con canchas techadas y excelentes instalaciones.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nosotros-media">
+                    <div class="image-stack">
+                        <img src="assets/Ganso 1.jpg" alt="Entrenamiento Esganba" class="img-main">
+                        <img src="assets/Ganso Fondo Negro.jpg" alt="Baloncesto Esganba" class="img-sub">
+                        <div class="stat-badge">
+                            <span class="number">100%</span>
+                            <span class="label">Compromiso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programas Section -->
+    <section id="programas" class="section programas">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Nuestras Categorías</span>
+                <h2 class="section-title">Programas para Todos los Niveles</h2>
+                <p class="section-desc max-w-md">Ofrecemos entrenamientos especializados estructurados pedagógicamente para garantizar la evolución y diversión de cada participante.</p>
+            </div>
+            
+            <div class="cards-grid">
+                <!-- Programa Infantil -->
+                <div class="program-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/Niños Gansos(1).jpg" alt="Niños Gansos" class="card-img">
+                        <div class="card-badge">Fomenta el Deporte</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Baloncesto Infantil</h3>
+                        <p class="card-text">Clases lúdicas para niños y niñas de 5 a 12 años. Enfocado en la motricidad, fundamentos básicos y socialización a través del juego.</p>
+                        <ul class="card-features">
+                            <li><i data-lucide="check-circle-2"></i> Fundamentos de juego</li>
+                            <li><i data-lucide="check-circle-2"></i> Coordinación motora</li>
+                            <li><i data-lucide="check-circle-2"></i> Diversión y compañerismo</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline btn-block">Preguntar Horarios</a>
+                    </div>
+                </div>
+
+                <!-- Programa Juvenil -->
+                <div class="program-card featured">
+                    <div class="card-img-wrapper">
+                        <img src="assets/Chica Ganso Fondo Negro(1).jpg" alt="Entrenamiento Juvenil - Ganso" class="card-img">
+                        <div class="card-badge badge-hot">Más Popular</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Desarrollo Juvenil</h3>
+                        <p class="card-text">Para jóvenes de 13 a 18 años. Trabajo intensivo de técnica individual, táctica colectiva y preparación física para competencia.</p>
+                        <ul class="card-features">
+                            <li><i data-lucide="check-circle-2"></i> Táctica avanzada</li>
+                            <li><i data-lucide="check-circle-2"></i> Preparación física</li>
+                            <li><i data-lucide="check-circle-2"></i> Torneos locales en Bogotá</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-primary btn-block">Inscribirse Ahora</a>
+                    </div>
+                </div>
+
+                <!-- Programa Adultos / Pro -->
+                <div class="program-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/Ganso 2.jpg" alt="Entrenamiento Adultos y Competencia" class="card-img">
+                        <div class="card-badge">Alto Rendimiento</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Adultos y Rendimiento</h3>
+                        <p class="card-text">Sesiones para mayores de 18 años, tanto recreativos como de alto nivel. Ejercicios cardiovasculares, técnica y partidos competitivos.</p>
+                        <ul class="card-features">
+                            <li><i data-lucide="check-circle-2"></i> Técnica avanzada individual</li>
+                            <li><i data-lucide="check-circle-2"></i> Acondicionamiento de élite</li>
+                            <li><i data-lucide="check-circle-2"></i> Comunidad activa de basket</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline btn-block">Conocer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Entrenador Principal Section -->
+    <section id="entrenador" class="section entrenador-section">
+        <div class="container">
+            <div class="section-grid align-center">
+                <div class="entrenador-media">
+                    <div class="avatar-frame">
+                        <img src="assets/Entrenador Avatar.jpg" alt="Entrenador Principal Esganba" class="entrenador-full-img">
+                        <div class="avatar-mini">
+                            <img src="assets/Entrenador Ganso.jpg" alt="Avatar Entrenador" class="avatar-img">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="entrenador-content">
+                    <span class="section-tag">Staff Técnico</span>
+                    <h2 class="section-title">Liderazgo y Experiencia en la Banca</h2>
+                    <p class="subtitle-entrenador">Entrenador Principal de Esganba</p>
+                    <p class="section-desc">Bajo la dirección de nuestro entrenador principal, el club se enfoca no solo en crear grandes basquetbolistas, sino en inspirar a cada atleta a superar sus propios límites.</p>
+                    
+                    <div class="quote-box">
+                        <i data-lucide="quote" class="quote-icon"></i>
+                        <blockquote>
+                            "Cuando yo era paracaidista, salte desde 4000m de altura, cai mal y me parti las 2 piernas, tambien me quede enredado en un arbol y me parti 3 costillas y luego fui a entrenar al dia siguiente, porque tenia partido ese dia, y jugue con las 2 piernas destrozadas, 3 costillas rotas y me partieron la nariz asi que tuve que reacomodarla, y aun asi, meti 30 puntos, 20 asistencias y 15 rebotes."
+                    </div>
+                    <div class="stats-row">
+                        <div class="stat-box">
+                            <span class="num">30+</span>
+                            <span class="lbl">Años de Exp.</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="num">100+</span>
+                            <span class="lbl">Atletas Formados</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="num">20+</span>
+                            <span class="lbl">Títulos Locales</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Multimedia Section -->
+    <section id="galeria" class="section galeria">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Galería Esganba</span>
+                <h2 class="section-title">El Club en Acción</h2>
+                <p class="section-desc max-w-md">Echa un vistazo a la energía de nuestros entrenamientos, campeonatos y la gran familia Esganba en Bogotá.</p>
+            </div>
+            
+            <!-- Video Promocional Destacado -->
+            <div class="video-destacado-container">
+                <div class="video-wrapper">
+                    <video id="galeria-video" controls poster="assets/Portada.jpg">
+                        <source src="assets/Presentacion Avatar.mp4" type="video/mp4">
+                        Tu navegador no soporta reproducción de video.
+                    </video>
+                    <div class="video-overlay" id="video-overlay-btn">
+                        <button class="play-btn" aria-label="Reproducir video"><i data-lucide="play"></i></button>
+                        <h3>Video Promocional Esganba</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid de Fotos Asimétrico / Masonry -->
+        </div>
+    </section>
+
+    <!-- Desafío de Tiro Libre (Gamificación Premium) -->
+    <section id="desafio" class="section desafio-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="desafio-content">
+                    <span class="section-tag">Juega y Gana</span>
+                    <h2 class="section-title">Desafío de Tiro Libre <span class="highlight">Esganba</span></h2>
+                    <p class="section-desc">¿Tienes buena puntería? Prueba tus habilidades encestando en nuestro simulador interactivo de tiro libre. ¡Si logras anotar, desbloquearás un beneficio exclusivo para tu matrícula!</p>
+                    
+                    <div class="instrucciones-juego">
+                        <div class="instruccion-step">
+                            <span class="step-num">1</span>
+                            <p>Haz clic en el balón de baloncesto y arrastra hacia atrás para apuntar.</p>
+                        </div>
+                        <div class="instruccion-step">
+                            <span class="step-num">2</span>
+                            <p>Suelta para lanzar el balón hacia el aro de baloncesto.</p>
+                        </div>
+                        <div class="instruccion-step">
+                            <span class="step-num">3</span>
+                            <p>¡Si encestas, obtienes un regalo sorpresa instantáneo para tu uniforme o mensualidad!</p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta de Premio desbloqueada (oculta al inicio) -->
+                    <div id="premio-card" class="premio-card-glow hide">
+                        <div class="premio-icon"><i data-lucide="party-popper"></i></div>
+                        <div class="premio-info">
+                            <h3>¡FELICIDADES! ¡ANOTASTE! 🎉</h3>
+                            <p>Has desbloqueado un **10% de descuento en tu matrícula**.</p>
+                            <div class="promo-code">CÓDIGO: <span id="code-val">ESGANBAPRO10</span></div>
+                            <p class="small-text">Ingresa este código en el formulario de abajo para reclamarlo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="desafio-gameplay">
+                    <div class="game-canvas-container">
+                        <canvas id="game-canvas" width="500" height="400"></canvas>
+                        <div class="game-ui-overlay">
+                            <div class="score-board">
+                                <span class="score-label">Intentos:</span>
+                                <span id="attempts-count" class="score-val">0</span>
+                                <span class="score-separator">|</span>
+                                <span class="score-label">Encestados:</span>
+                                <span id="score-count" class="score-val text-primary">0</span>
+                            </div>
+                            <button id="reset-game-btn" class="btn btn-outline btn-sm reset-btn">
+                                <i data-lucide="rotate-ccw"></i> Reiniciar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto e Inscripción Section -->
+    <section id="contacto" class="section contacto">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Inscríbete hoy</span>
+                    <h2 class="section-title">¡Únete a Esganba! Agenda tu clase gratis</h2>
+                    <p class="section-desc">¿Tienes dudas o quieres agendar tu primera sesión de entrenamiento sin costo? Déjanos tus datos o escríbenos directamente. ¡Te esperamos en la cancha!</p>
+                    
+                    <div class="contacto-detalles">
+                        <div class="info-card">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Teléfono / WhatsApp</h4>
+                                <p><a href="tel:+573001234567" class="hover-link">+57 (300) 123-4567</a></p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Correo Electrónico</h4>
+                                <p><a href="mailto:info@gansosbc.com" class="hover-link">info@gansosbc.com</a></p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Nuestras Canchas</h4>
+                                <p>Bogotá, Colombia - Cancha Principal Norte y Sede Salitre</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="inscription-form" class="glass-form" action="https://formspree.io/f/XYZWxyz" method="POST"></form>
+                        <h3 class="form-title">Formulario de Inscripción</h3>
+                        <p class="form-subtitle">Completa tus datos para recibir más información y separar tu cupo.</p>
+                        
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="user" class="input-icon"></i>
+                                <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="mail" class="input-icon"></i>
+                                <input type="email" id="email" name="email" placeholder="Ej. juan@correo.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Número de Celular</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="phone" class="input-icon"></i>
+                                <input type="tel" id="telefono" name="telefono" placeholder="Ej. 3001234567" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="categoria">Categoría de Interés</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="award" class="input-icon"></i>
+                                <select id="categoria" name="categoria" required>
+                                    <option value="" disabled selected>Selecciona una opción</option>
+                                    <option value="infantil">Infantil (5 - 12 años)</option>
+                                    <option value="juvenil">Juvenil (13 - 18 años)</option>
+                                    <option value="adultos">Adultos / Alto Rendimiento</option>
+                                    <option value="personalizado">Entrenamiento Personalizado</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje o Preguntas (Opcional)</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos un poco sobre tu experiencia o déjanos tu consulta..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="submit-btn">
+                            Enviar Solicitud <i data-lucide="send" style="margin-left: 8px;"></i>
+                        </button>
+                        
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo-area">
+                        <img src="assets/Logo.jpg" alt="Logo Esganba" class="logo-img">
+                        <span class="logo-text text-white">ESGANBA</span>
+                    </a>
+                    <p class="footer-desc">Formación de baloncesto de alto rendimiento en Bogotá. Construyendo disciplina y excelencia deportiva desde la base.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="Youtube"><i data-lucide="youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">El Club</a></li>
+                        <li><a href="#programas">Programas</a></li>
+                        <li><a href="#entrenador">Entrenador</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-horarios">
+                    <h3>Horarios de Atención</h3>
+                    <ul>
+                        <li><span>Lunes a Viernes:</span> 4:00 PM - 8:00 PM</li>
+                        <li><span>Sábados:</span> 8:00 AM - 2:00 PM</li>
+                        <li><span>Domingos:</span> Cerrado</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Esganba (Escuela de Gansos de Baloncesto) Bogotá. Todos los derechos reservados.</p>
+                <p>Diseño premium para el desarrollo deportivo.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
